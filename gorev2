@@ -1,0 +1,17 @@
+// 2.gorev gun cevirme
+#include <stdio.h>
+
+int main() {
+  int yil;
+  int hafta;
+  int gun;
+    printf("gun sayisi giriniz");
+    scanf("%d",&gun);
+    yil=gun/365;
+    hafta=gun%365/7;
+    hafta=gun%365/7;
+    gun=gun-365*yil-7*hafta;
+    printf("%d yil,%d hafta,%d gun",yil,hafta,gun);
+    
+    return 0;
+}
