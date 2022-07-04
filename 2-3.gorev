@@ -1,0 +1,19 @@
+// x1=a x2=b y1=c y2=d
+#include <stdio.h>
+
+int main() {
+    float a,b,c,d,s1,s2,s;
+    printf("x1 degerini giriniz");
+    scanf("%f",&a);
+    printf("x2 degerini giriniz");
+    scanf("%f",&b);
+    printf("y1 degerini giriniz");
+    scanf("%f",&c);
+    printf("y2 degerini giriniz");
+    scanf("%f",&d);
+    s1=b-a;
+    s2=d-c;
+    s=sqrt(s1*s1+s2*s2);
+    printf("%f",s);
+    return 0;
+    }
