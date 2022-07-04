@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int x,y;
+    printf("x degeri giriniz:");
+    scanf("%d",&x);
+    printf("y degeri giriniz");
+    scanf("%d",&y);
+    if(x>0&y>0)
+    printf("quadrant 1");
+    if(x<0&y>0)
+    printf("quadrant 2");
+    if(x<0&y<0)
+    printf("quadrant 3");
+    if(x>0&y<0)
+    printf("quadrant 4");
+    return 0;
+}
