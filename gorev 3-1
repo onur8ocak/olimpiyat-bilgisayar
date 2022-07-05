@@ -1,0 +1,21 @@
+// a 1.sayiyi b 2.sayiyi temsil etmektedir
+//aradaki sayılar soruldugundan arttırma işlemi kullanilmistir(11.satir)
+#include <stdio.h>
+
+int main() {
+    int a,b,toplam=0;
+printf("1.sayiyi giriniz:");
+scanf("%d",&a);
+printf("2.sayiyi giriniz:");
+scanf("%d",&b);
+a++;
+for(a;a<b;a++){
+    if(a%17==0)
+    continue;
+    else
+    toplam+=a;
+}
+  printf("on yediye bolunmeyen sayilarin toplami=%d",toplam);
+    
+    return 0;
+}
