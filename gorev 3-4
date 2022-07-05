@@ -1,0 +1,16 @@
+//degiskenlerde int kullanırsam sonucun hep 1 olacagını gordum o yuzden degiskenlerde float veri tipini kullandım
+// scanf ile istenen sayiyi aldim
+// 1'i scanfden aldıgımız sayıya kadar tek tek boldum ve elde edilen degerleri toplayıp yazdırdım 
+#include <stdio.h>
+
+int main() {
+    float sayi;
+    float sayac=1;
+    float toplam=0;
+    printf("sayi giriniz:");
+    scanf("%f",&sayi);
+    for(sayac;sayac<=sayi;sayac++)
+    toplam+=1/sayac;
+    printf("%f",toplam);
+    return 0;
+}
