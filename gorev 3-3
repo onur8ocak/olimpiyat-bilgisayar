@@ -1,4 +1,4 @@
-//scanfle istenen satir ve sutun sayisini
+//scanfle istenen satir ve sutun sayisini belirledim
 //sayac degiskenini 1den baslayıp istenen sayıya kadar yazdırmak icin kullandim
 //sayac degiskenin hangi sayiya kadar yazdiracagini istenen sutun ve satir sayisiyla carparak buldum ve bunu for dongusu icinde kullandim
 //13.satirda yeni satira gecilip gecilmemesi gerektiginin kontrolunu yaptım
