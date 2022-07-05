@@ -1,0 +1,19 @@
+// burada sayi ve 1 dahil butun degerler soruldugu icin 8.satirda  arttırmA islemi kullandim
+// \n i de sonraki satira gecmek icin kullandim
+#include <stdio.h>
+
+int main() {
+int sayi,a=1;
+printf("sayi giriniz:");
+scanf("%d",&sayi);
+sayi++;
+for(a;a<sayi;a++){
+    printf("\n%d ",a);
+    printf("%d ",a*a);
+    printf("%d ",a*a*a);
+}
+
+    
+    
+    return 0;
+}
