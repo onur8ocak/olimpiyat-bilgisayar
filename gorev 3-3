@@ -1,0 +1,19 @@
+//scanfle istenen satir ve sutun sayisini
+//sayac degiskenini 1den baslayıp istenen sayıya kadar yazdırmak icin kullandim
+//sayac degiskenin hangi sayiya kadar yazdiracagini istenen sutun ve satir sayisiyla carparak buldum ve bunu for dongusu icinde kullandim
+//13.satirda yeni satira gecilip gecilmemesi gerektiginin kontrolunu yaptım
+#include <stdio.h>
+int main() {
+int sayac,satir,sutun;
+printf("sutun degeri giriniz:");
+scanf("%d",&sutun);
+printf("satir degeri giriniz:");
+scanf("%d",&satir);
+for(sayac=1;sayac<=satir*sutun;sayac++){
+   if(sayac%sutun==1)
+   printf("\n%d ",sayac);
+   else
+   printf("%d ",sayac);
+}
+    return 0;
+}
