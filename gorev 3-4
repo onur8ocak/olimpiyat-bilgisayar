@@ -1,5 +1,4 @@
 //degiskenlerde int kullanırsam sonucun hep 1 olacagını gordum o yuzden degiskenlerde float veri tipini kullandım
-// scanf ile istenen sayiyi aldim
 // 1'i scanfden aldıgımız sayıya kadar tek tek boldum ve elde edilen degerleri toplayıp yazdırdım 
 #include <stdio.h>
 
