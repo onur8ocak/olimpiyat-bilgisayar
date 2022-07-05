@@ -1,5 +1,7 @@
 // a 1.sayiyi b 2.sayiyi temsil etmektedir
-//aradaki sayılar soruldugundan arttırma işlemi kullanilmistir(11.satir)
+//aradaki sayılar soruldugundan arttırma işlemi kullandim(11.satir)
+//for dongusu ile b ye kadar olan sayıları if ile 17ye bolunup bolunmedigini kontrol ettim bolunmuyorsa toplam degiskeni ile topladim 
+//ekrana toplam degiskenini yazdirdim
 #include <stdio.h>
 
 int main() {
