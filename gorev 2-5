@@ -7,11 +7,11 @@ int main() {
     scanf("%d",&y);
     if(x>0&y>0)
     printf("quadrant 1");
-    if(x<0&y>0)
+    else if(x<0&y>0)
     printf("quadrant 2");
-    if(x<0&y<0)
+    else if(x<0&y<0)
     printf("quadrant 3");
-    if(x>0&y<0)
+    else(x>0&y<0)
     printf("quadrant 4");
     return 0;
 }
