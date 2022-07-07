@@ -10,8 +10,7 @@ printf("1.sayiyi giriniz:");
 scanf("%d",&a);
 printf("2.sayiyi giriniz:");
 scanf("%d",&b);
-a++;
-for(a;a<b;a++){
+for(a;a<=b;a++){
     if(a%17==0)
     continue;
     else
