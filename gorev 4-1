@@ -1,0 +1,24 @@
+// scanfle dizinin terimlerini taradim
+// ekrana ters degerleri yazdıracagim icin scanflerdeki terimleri 4,3,2,1,0 seklinde siraladim
+// for dongusu ile a degiskenini  her seferinde dizinin i. degiskenine esitledim
+// for dongusu ile i ve a degiskenini her seferinde ekrana yazdirmak icin kullandim
+#include <stdio.h>
+
+int main() {
+int dizi[5],i,a;
+printf("1.sayiyi giriniz:");
+scanf("%d",&dizi[4]);
+printf("2.sayiyi giriniz:");
+scanf("%d",&dizi[3]);
+printf("3.sayiyi giriniz:");
+scanf("%d",&dizi[2]);
+printf("4.sayiyi giriniz:");
+scanf("%d",&dizi[1]);
+printf("5.sayiyi giriniz:");
+scanf("%d",&dizi[0]);
+for(i=0;i<5;i++){
+a=dizi[i];
+printf("\ndizi[%d]=%d",i,a);
+}
+    return 0;
+}
