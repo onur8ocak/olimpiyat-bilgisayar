@@ -1,0 +1,33 @@
+// scanfle girilecek degerleri aldim
+// ifle de hangi degerin kucuk oldugunu bulup ekrana yazdirdim
+#include <stdio.h>
+
+int main() {
+    int s1,s2,s3,s4,s5,i;
+    printf("1.sayiyi giriniz:");
+    scanf("%d",&s1);
+    printf("2.sayiyi giriniz:");
+    scanf("%d",&s2);
+    printf("3.sayiyi giriniz:");
+    scanf("%d",&s3);
+    printf("4.sayiyi giriniz:");
+    scanf("%d",&s4);
+    printf("5.sayiyi giriniz:");
+    scanf("%d",&s5);
+    if(s1<=s2&s1<=s3&s1<=s4&s1<=s5){
+    printf("en kucuk deger=%d",s1);
+    printf("en kucuk deger 0.siradadir");}
+    else if(s2<=s1&s2<=s3&s2<=s4&s2<=s5){
+    printf("en kucuk deger=%d",s2);
+    printf("en kucuk deger 1.siradadir");}
+    else if(s3<=s2&s3<=s1&s3<=s4&s3<=s5){
+    printf("en kucuk deger=%d",s3);
+    printf("en kucuk deger 2.siradadir");}
+    else if(s4<=s2&s4<=s3&s4<=s1&s4<=s5){
+    printf("en kucuk deger=%d",s4);
+    printf("en kucuk deger 3.siradadir");}
+    else
+    printf("en kucuk deger=%d",s5);
+    printf("en kucuk deger 4.siradadir");
+    return 0;
+}
