@@ -1,0 +1,10 @@
+//scanfle metini aldim
+//strlen ile  uzunlugu yazdirdim
+#include <stdio.h>
+int main() {
+char metin[10000];
+printf("metin giriniz: ");
+scanf("%s",metin);
+printf("uzunluk:%d",strlen(metin));
+return 0;
+}
