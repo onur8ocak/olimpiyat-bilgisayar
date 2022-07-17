@@ -1,0 +1,12 @@
+// scanfle sayiyi aldim
+// printfle de sayinin sayi degerlerini bulup ters yazdirdim
+#include <stdio.h>
+int main() {
+int sayi;
+printf("sayi giriniz: ");
+scanf("%d",&sayi);
+printf("%d",sayi%10);
+printf("%d",(sayi%100-sayi%10)/10);
+printf("%d",(sayi-sayi%100)/100);
+return 0;
+}
