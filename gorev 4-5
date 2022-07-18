@@ -1,0 +1,18 @@
+// scanfle sayiyi aldim 
+// sayinin butun basamaklarini buldum
+// aralarina bosluk koyarak yazdirdim
+#include <stdio.h>
+int main() {
+    int sayi,b1,b2,b3,b4,b5,b6,b7;
+    printf("sayi giriniz: ");
+    scanf("%d",&sayi);
+    b1=sayi/1000000;
+    b2=sayi/100000-b1*10;
+    b3=sayi/10000-b1*100-b2*10;
+    b4=sayi/1000-b1*1000-b2*100-b3*10;
+    b5=sayi/100-b1*10000-b2*1000-b3*100-b4*10;
+    b6=sayi/10-b1*100000-b2*10000-b3*1000-b4*100-b5*10;
+    b7=sayi-b1*1000000-b2*100000-b3*10000-b4*1000-b5*100-b6*10;
+    printf("sonuc:%d %d %d %d %d %d %d",b1,b2,b3,b4,b5,b6,b7);
+    return 0;
+}
