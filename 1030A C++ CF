@@ -1,0 +1,22 @@
+//Onur
+//1030A CF
+#include <bits/stdc++.h>
+#include <vector>
+#define assign as
+typedef long long ll;
+typedef int i;
+using namespace std;
+vector<i> ar;
+ll a,n,j,e;
+int main(){
+    cin>>n;
+    for(j=0;j<n;j++){
+    cin>>e;
+    ar.push_back(e);
+    }
+    sort(ar.begin(),ar.end());
+    if(ar[--n]==0) cout<<"EASY";
+    else cout<<"HARD";
+    
+    return 0;
+}
